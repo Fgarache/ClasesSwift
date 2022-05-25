@@ -27,3 +27,10 @@ class Programmer {
 }
 
 let frank = Programmer(name: "Brais Moure", age: 32, languages: [.swift, .kotlin])
+frank.code()
+
+let sara = Programmer(name: "sara", age: 12, languages: [.kotlin])
+
+print("")
+
+frank.code()
